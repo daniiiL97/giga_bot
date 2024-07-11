@@ -8,11 +8,11 @@ import os
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.chat_models.gigachat import GigaChat
 
-KEY = ('7232254506:AAEzof7JkzS_xmjgoAMCfQe-5kGoANtjkVg')
+KEY = ('')
 bot = telebot.TeleBot(KEY)
 
 # Initialize GigaChat
-chat = GigaChat(credentials="MGQ3ODgzNGQtMTAyYS00MjA0LTg0MmMtMjJjMTEwNGZmOGQ4OmZjNzAzODI4LTYxYWMtNDIxMC05MTU0LThkMGZlMDA4N2RmMA==", verify_ssl_certs=False)
+chat = GigaChat(credentials="", verify_ssl_certs=False)
 
 user_summary_length = {}
 
